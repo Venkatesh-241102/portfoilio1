@@ -3,387 +3,160 @@
   <head>
     <title>VENKATESH_Portfolio Site</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:title" content="Page Tile" />
     <meta property="og:description" content="Personal Site" />
     <link rel="stylesheet" href="css/index.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
         <a class="navbar-brand fw-semibold" href="#">Portfolio</a>
-        <button
-          class="navbar-toggler d-lg-none"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div
-          class="collapse navbar-collapse d-none d-lg-flex justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav gap-5">
-            <li class="nav-item fw-semibold">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
             </li>
-            <li class="nav-item fw-semibold">
+            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item fw-semibold">
+            <li class="nav-item">
               <a class="nav-link" href="#project">Projects</a>
             </li>
-            <li class="nav-item fw-semibold">
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-
-        <div
-          class="offcanvas offcanvas-end d-lg-none"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body text-dark">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#project">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </nav>
-    <div class="ps-5 py-5 row" id="home">
-      <div class="pt-5 col-8">
-        <h4>Hi,I am</h4>
-        <h2 class="display-1 fw-bold fade-in" style="animation-delay: 0.5s">
-          VENKATESH V
-        </h2>
-        <h4 class="fw-bold text-dark fade-in" style="animation-delay: 1s">
-          Full Stack<span class="text-warning">Developer</span>
-        </h4>
-        <div class="text-dark mt-9 text-center py-5">
-          <div class="d-flex gap-2 text-dark">
-            <a
-              class="fa-brands fa-linkedin fa-3x text-dark"
-              href="https://www.linkedin.com/in/venkatesh-v-881479259"
-            ></a>
-            <a
-              class="fa-brands fa-square-facebook fa-3x text-dark"
-              href="https://www.facebook.com"
-            ></a>
-            <a
-              class="fa-solid fa-envelope fa-3x text-dark"
-              href="mailto:venkatesh241102@gmail.com"
-            ></a>
-            <a
-              class="fa-brands fa-github fa-3x text-dark"
-              href="https://github.com/Venkatesh-241102"
-            ></a>
+
+    <section id="home" class="d-flex flex-column align-items-center py-5">
+      <div class="row w-100">
+        <div class="col-lg-8 col-md-12 text-center">
+          <h4>Hi, I am</h4>
+          <h2 class="display-1 fw-bold fade-in" style="animation-delay: 0.5s">VENKATESH V</h2>
+          <h4 class="fw-bold text-dark fade-in" style="animation-delay: 1s">
+            Full Stack <span class="text-warning">Developer</span>
+          </h4>
+          <div class="social-icons d-flex justify-content-center gap-3 mt-5">
+            <a class="fa-brands fa-linkedin fa-3x" href="https://www.linkedin.com/in/venkatesh-v-881479259"></a>
+            <a class="fa-brands fa-square-facebook fa-3x" href="https://www.facebook.com"></a>
+            <a class="fa-solid fa-envelope fa-3x" href="mailto:venkatesh241102@gmail.com"></a>
+            <a class="fa-brands fa-github fa-3x" href="https://github.com/Venkatesh-241102"></a>
           </div>
         </div>
+        <div class="col-lg-4 col-md-12 text-center pt-3">
+          <img src="images/venkateshimg.jpeg" alt="Venkatesh Image" class="img-fluid rounded-circle" style="background-color: aqua; width: 300px; height: 300px; border: 7px solid black; object-fit: cover;" />
+        </div>
       </div>
-      <div class="col-4 pt-3">
-        <img
-          src="images/venkateshimg.jpeg"
-          alt=""
-          class="img-fluid rounded-circle"
-          style="
-            background-color: aqua;
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            border: 7px solid black;
-            object-fit: cover;
-          "
-        />
-      </div>
-      <div class="caption">
-        <a
-          class="btn-border border-black rounded"
-          download
-          href="./images/VENKATESH RESUME .pdf"
-          download
-        >
-          <span class="btn-caption fs-2" style="width: 200px; height: 200px"
-            >Download CV
-          </span>
-          <i class="ph-bold ph-download-simple"></i>
+
+      <div class="caption mt-4">
+        <a class="btn btn-outline-dark" href="./images/VENKATESH RESUME .pdf" download>
+          Download CV <i class="fa-solid fa-download"></i>
         </a>
       </div>
+    </section>
 
-      <div class="d-flex flex-column text-center mt-5" id="about">
-        <div class="d-flex justify-content-center pt-2">
-          <h1
-            class="text-center"
-            style="
-              display: inline-block;
-              border-bottom: 5px solid black;
-              padding-bottom: 5px;
-            "
-          >
-            About Me
-          </h1>
-          <
-        </div>
-        <div class="pt-3">
-            <img src="/images/aboutimg.jpg" alt="aboutimg" style=" width: 200px;">
-        </div>
-        <p class="d-flex flex-wrap fw-bold display-7 mt-4">
-          "I am proficient in various programming and web development languages,
-          including SQL, CSS, HTML, JavaScript, and Bootstrap. With hands-on
-          experience in each of these technologies, I am confident in my ability
-          to design, develop, and optimize web applications."
-        </p>
+    <section id="about" class="text-center py-5">
+      <h1 class="mb-4" style="border-bottom: 5px solid black; display: inline-block; padding-bottom: 5px;">About Me</h1>
+      <div class="pt-3">
+        <img src="/images/aboutimg.jpg" alt="About Image" class="img-fluid rounded-circle" style="width: 200px;" />
       </div>
-      <div class="container mt-5">
-        <div class="d-flex justify-content-center pt-2">
-          <h3
-            class="fw-bold text-uppercase my-text-color text-center"
-            style="
-              display: inline-block;
-              border-bottom: 5px solid black;
-              padding-bottom: 5px;
-            "
-          >
-            Skills
-          </h3>
-        </div>
-        <p class="text-center fw-bold display-7 mt-4">
-          Here is some more skills about myself to help you get to know me
-          better
-        </p>
-<div style="padding-left: 150px; padding-right: 150px; padding-top: 10px;">
-        <h5><i class="fa-solid fa-check"></i> HTML</h5>
-        <div class="progress mb-4 w-50%">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 55%"
-            aria-valuenow="55"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            55%
-          </div>
-        </div>
+      <p class="fw-bold mt-4">
+        "I am proficient in various programming and web development languages, including SQL, CSS, HTML, JavaScript, and Bootstrap. With hands-on experience in each of these technologies, I am confident in my ability to design, develop, and optimize web applications."
+      </p>
+    </section>
 
-        <h5><i class="fa-solid fa-check"></i> CSS</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 75%"
-            aria-valuenow="75"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            75%
-          </div>
-        </div>
+    <section id="skills" class="py-5">
+      <div class="text-center mb-4">
+        <h3 class="fw-bold text-uppercase" style="border-bottom: 5px solid black; display: inline-block; padding-bottom: 5px;">Skills</h3>
+        <p class="mt-4">Here are some of my skills to help you get to know me better:</p>
+      </div>
 
-        <h5><i class="fa-solid fa-check"></i> BOOTSTRAP</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 25%"
-            aria-valuenow="25"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            25%
-          </div>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5><i class="fa-solid fa-check"></i> HTML</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+            </div>
 
-        <h5><i class="fa-solid fa-check"></i> PYTHON</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 15%"
-            aria-valuenow="15"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            15%
-          </div>
-        </div>
+            <h5><i class="fa-solid fa-check"></i> CSS</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
 
-        <h5><i class="fa-solid fa-check"></i> REACT</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primaryr"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 78%"
-            aria-valuenow="78"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            78%
+            <h5><i class="fa-solid fa-check"></i> Bootstrap</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
           </div>
-        </div>
 
-        <h5><i class="fa-solid fa-check"></i> JAVA</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 99%"
-            aria-valuenow="99"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            99%
-          </div>
-        </div>
+          <div class="col-md-6">
+            <h5><i class="fa-solid fa-check"></i> Python</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+            </div>
 
-        <h5><i class="fa-solid fa-check"></i> NODE JS</h5>
-        <div class="progress mb-4">
-          <div
-            class="progress-bar bg-"
-            role="progressbar"
-            aria-label="Example with label"
-            style="width: 65%"
-            aria-valuenow="65"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            65%
+            <h5><i class="fa-solid fa-check"></i> React</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78%</div>
+            </div>
+
+            <h5><i class="fa-solid fa-check"></i> Java</h5>
+            <div class="progress mb-4">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">99%</div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section id="contact" class="py-5">
-      <div class="d-flex justify-content-center pt-2">
-        <h2
-          class="text-center mb-4"
-          style="
-            display: inline-block;
-            border-bottom: 5px solid black;
-            padding-bottom: 5px;
-          "
-        >
-          Contact
-        </h2>
-      </div>
-<div style="padding-left:150px ;padding-right: 150px;">
-      <form class="container">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name"> Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="Your Name"
-            />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="Email"
-            />
-          </div>
+        <div class="d-flex justify-content-center">
+            <h2 class="text-center mb-4" style="border-bottom: 5px solid black; display: inline-block; padding-bottom: 5px;">
+                Contact
+              </h2>
         </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea
-            class="form-control"
-            id="message"
-            rows="4"
-            placeholder="Your Message"
-          ></textarea>
-        </div>
-    </div>
-        <div class="d-flex justify-content-center pt-4">
-          <button type="submit" class="btn btn-info">Send Message</button>
-        </div>
-      </form>
-    </section>
-    <footer class="footer py-2">
       <div class="container">
-        <div class="d-flex mt-3">
-          <p class="flex-grow-1">Copyright @ 2024 | Designed by Venkatesh</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info d-block mx-auto">Send Message</button>
+        </form>
+      </div>
+    </section>
 
-          <a href="#12" class="text-dark mx-1">
-            <i class="fa-brands fa-twitter fa-2x"></i>
-          </a>
-          <a href="#12" class="text-dark mx-1">
-            <i class="fa-brands fa-instagram fa-2x"></i>
-          </a>
-          <a href="#12" class="text-dark mx-1">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
-          </a>
-          <a href="#12" class="text-dark mx-1">
-            <i class="fa-brands fa-square-facebook fa-2x"></i>
-          </a>
-          <a href="#12" class="text-dark mx-1">
-            <i class="fa-brands fa-youtube fa-2x"></i>
-          </a>
+    <footer class="footer py-2 bg-dark  text-white">
+      <div class="container bg-dark d-flex justify-content-between">
+        <p class="mb-0 bg-dark">Copyright &copy; 2024 | Designed by Venkatesh</p>
+        <div class="social-icons bg-dark">
+          <a href="#12" class="text-white mx-1 "><i class="fa-brands fa-twitter fa-2x"></i></a>
+          <a href="#12" class="text-white mx-1"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          <a href="#12" class="text-white mx-1"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          <a href="#12" class="text-white mx-1"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+          <a href="#12" class="text-white mx-1"><i class="fa-brands fa-youtube fa-2x"></i></a>
         </div>
       </div>
     </footer>
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
